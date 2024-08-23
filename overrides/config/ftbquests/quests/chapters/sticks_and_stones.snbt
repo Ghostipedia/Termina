@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sticks_and_stones"
+	group: "04EBF765A4D2EF4A"
+	id: "1EED945A1AABA33B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7Report Log Loop&r &f#&r &61.843841e+50&r:"
+				""
+				"&fMultiple loop failures have resulted in a decayed conscious.&r"
+				"&cAssuming simulation brain death.&r"
+				"&bProject Frontiers&r is only opperating on emergency support simulators."
+				"&cProject iniative has been deemed at threat of failure.&r"
+				""
+				"&6Executing&r : &eTermina Lifeloop Recovery System&r"
+				""
+				"{@pagebreak}"
+				""
+				"Welcome Termina, a fragmented world beyond the veils of what came before."
+				"&7Termina Follows the universe set in Cosmic Frontiers, which follows the same universe and story-roots.&r Termina is effectively the prequel lore and story wise to Frontiers. &7So don't worry! You can play Termina and Frontiers in any order you wish!&r"
+			]
+			id: "34C6B12F3B9A46FB"
+			subtitle: "The Stars Wail in Agony"
+			tasks: [{
+				id: "3E42B1C748DE0D0B"
+				title: "Accept your fate."
+				type: "checkmark"
+			}]
+			title: "Restart the Cycle."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["These are also everywhere, pick a few of them up"]
+			id: "294CC0CEBE74A479"
+			tasks: [{
+				id: "5A0521C2E768D7DD"
+				item: "tfc:rock/loose/dolomite"
+				type: "item"
+			}]
+			title: "Rocks"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Slicing down trees requires an axe, you can make some by whacking two rockets together. This mechanic is known as \"Knapping\" and will be used a lot from here on out. Most notably with"
+				""
+				"- Rocks"
+				"- Clay"
+				"- Leather"
+				"- Fireclay"
+				"- Probably more I'm forgetting..."
+				""
+				""
+				"Some of the 'tougher' materials you lose materials if you fail making the proper engraving while knapping. However, with clay/fireclay you can reclaim your losses simply by leaving the US"
+			]
+			id: "0586DB01F492465D"
+			subtitle: "Timber Time!"
+			tasks: [{
+				id: "42ACD0F6FB798E55"
+				item: "tfc:stone/axe_head/igneous_extrusive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Sticks and Stones"
+}

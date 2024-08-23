@@ -1,0 +1,101 @@
+
+[general]
+	#
+	# Should the wind system from Weather 2 be used to determine windmill behavior?
+	windmillWeather2Wind = true
+	#
+	# Should entities freeze during snowstorms?
+	snowstormFreezing = true
+	#
+	# Minimum limit rainfall value for sandstorms to spawn.
+	#Range: 0.0 ~ 500.0
+	sandstormMinRainfall = 0.0
+	#
+	# Maximum limit rainfall value for sandstorms to spawn.
+	#Range: 0.0 ~ 500.0
+	sandstormMaxRainfall = 100.0
+	#
+	# Minimum required temperature in celsius for snowstorms to spawn.
+	#Range: -20.0 ~ 30.0
+	snowstormMaxTemp = -2.0
+	#
+	# Minimum required temperature in celsius for heatwaves to trigger.
+	#Range: -20.0 ~ 30.0
+	heatwaveTemp = 15.0
+	#
+	# Minimum temperature for a storm to increase in strength.
+	#Range: -20.0 ~ 30.0
+	minCurrentTempBuildup = 5.0
+	#
+	# Maximum temperature for a storm to increase in strength.
+	#Range: -20.0 ~ 30.0
+	maxCurrentTempBuildup = 30.0
+	#
+	# Minimum rainfall for a storm to increase in strength.
+	#Range: 0.0 ~ 500.0
+	minRainfallBuildup = 175.0
+	#
+	# Maximum rainfall for a storm to increase in strength.
+	#Range: 0.0 ~ 500.0
+	maxRainfallBuildup = 500.0
+	#
+	# The sand layer displacement distance factor during erosion events.
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	sandLayerErosionFactor = 5.0
+	#
+	# The chance for sand layers to erode to an adjacent position. Higher value --> lower chance.
+	#Range: > 1
+	sandLayerErosionChance = 25
+	#
+	# Value to change the storm spawn frequency of during January.
+	#Range: 0.001 ~ 10000.0
+	valueJanuary = 0.01
+	#
+	# Value to change the storm spawn frequency of during February.
+	#Range: 0.001 ~ 10000.0
+	valueFebruary = 0.005
+	#
+	# Value to change the storm spawn frequency of during March.
+	#Range: 0.001 ~ 10000.0
+	valueMarch = 0.025
+	#
+	# Value to change the storm spawn frequency of during April.
+	#Range: 0.001 ~ 10000.0
+	valueApril = 0.045
+	#
+	# Value to change the storm spawn frequency of during May.
+	#Range: 0.001 ~ 10000.0
+	valueMay = 0.15
+	#
+	# Value to change the storm spawn frequency of during June.
+	#Range: 0.001 ~ 10000.0
+	valueJune = 0.45
+	#
+	# Value to change the storm spawn frequency of during July.
+	#Range: 0.001 ~ 10000.0
+	valueJuly = 0.85
+	#
+	# Value to change the storm spawn frequency of during August.
+	#Range: 0.001 ~ 10000.0
+	valueAugust = 1.15
+	#
+	# Value to change the storm spawn frequency of during September.
+	#Range: 0.001 ~ 10000.0
+	valueSeptember = 1.75
+	#
+	# Value to change the storm spawn frequency of during October.
+	#Range: 0.001 ~ 10000.0
+	valueOctober = 1.0
+	#
+	# Value to change the storm spawn frequency of during November.
+	#Range: 0.001 ~ 10000.0
+	valueNovember = 0.25
+	#
+	# Value to change the storm spawn frequency of during December.
+	#Range: 0.001 ~ 10000.0
+	valueDecember = 0.05
+	#
+	# The rate at which barrels will fill up during rain events. Higher value --> slower updates.
+	#Range: > 0
+	barrelFillRate = 25
+

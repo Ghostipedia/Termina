@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "metals_and_more"
+	group: "04EBF765A4D2EF4A"
+	id: "0A6410A212B4618F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Metals and More"
+}
