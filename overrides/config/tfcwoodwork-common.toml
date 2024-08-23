@@ -1,0 +1,41 @@
+#How many bark pieces to drop per side
+#Range: 0 ~ 64
+barkDropCount = 1
+#How many bast pieces to drop per side
+#Range: 0 ~ 64
+bastDropCount = 1
+#How much sawdust should drop from each saw interaction
+#Range: 0 ~ 64
+sawdustDropCount = 1
+#How many support should be crafted from one debarked half
+#Range: 0 ~ 64
+supportPerLogHalf = 4
+#How many lumber should be crafted from one debarked quarter
+#Range: 0 ~ 64
+lumberPerLogQuarter = 2
+#How many fences should drop from each plank interaction
+#Range: 0 ~ 64
+fenceFromPlank = 2
+#How many fences should drop from each stair interaction
+#Range: 0 ~ 64
+fenceFromStair = 2
+#How many log fences should drop from each log interaction
+#Range: 0 ~ 64
+fenceFromLog = 4
+#How many trapdoors should drop from each slab interaction
+#Range: 0 ~ 64
+trapdoorFromSlab = 2
+#How many logs can custom log pile store per slot
+#Range: 1 ~ 64
+logPileLogCapacity = 4
+#How many log halves can custom log pile store per slot
+#Range: 1 ~ 64
+logPileLogHalfCapacity = 8
+#How many log quarters can custom log pile store per slot
+#Range: 1 ~ 64
+logPileLogQuarterCapacity = 16
+#How many log quarters can custom log pile store in total across all slots
+#Maximum of 1792 is achieved when all slots are holding 64 items
+#Range: 1 ~ 1792
+logPileLimit = 64
+
