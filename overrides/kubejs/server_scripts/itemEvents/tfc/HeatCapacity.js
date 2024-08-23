@@ -17,8 +17,7 @@ TFCEvents.data(event => {
         let tfcMetalProp = material.getProperty($TerminaKeys.TFC_METAL_PROPERTY)
         if (tfcMetalProp != null) {
             manageHeatByTagPrefix(TagPrefix.ingot, material, tfcMetalProp, 1.429)
-            assignMetaltoFluid(material, tfcMetalProp.getMeltingTemp(), tfcMetalProp.getHeatCapacity(), TagPrefix.ingot, null, TagPrefix.plate, tfcMetalProp.getTier(), tfcMetalProp.getFluidMaterial())
+            assignMetaltoFluid(material, tfcMetalProp.getMeltingTemp(), tfcMetalProp.getHeatCapacity(), TagPrefix.ingot, null, TagPrefix.plate, tfcMetalProp.getTier(), tfcMetalProp.getFluidMaterial().getName())
         }
     })
-
 })
