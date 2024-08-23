@@ -9,5 +9,6 @@
 </h1>
 
 
-# Pack STATUS : Concepting & Prototyping
+# Pack STATUS : Concepting & Prototyping / Extremely Early Alpha
+Every build/action on github could be potentially destructive until an official 0.1.0 occurs. Please be careful with your worlds or be prepared to travel farther for oregen...
 **DO NOT EXPECT A STABLE BUILD - EVEN AS AN ALPHA ANY TIME SOON, HERE BE DRAGONS. THIS IS THE NEXT/SECOND PROJECT OF GHOSTIPEDA**
