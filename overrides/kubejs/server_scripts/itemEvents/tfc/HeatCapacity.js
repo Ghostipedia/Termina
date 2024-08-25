@@ -1,3 +1,7 @@
+
+const $PropertyKey = Java.loadClass("com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey")
+const $MaterialFlags = Java.loadClass("com.gregtechceu.gtceu.api.data.chemical.material.info.MaterialFlags")
+
 TFCEvents.data(event => {
     function manageHeatByTagPrefix(tagPrefix, material, tfcMetalProp, heatCapacity) {
         let item = ChemicalHelper.get(tagPrefix, material, 1)
@@ -18,6 +22,39 @@ TFCEvents.data(event => {
         if (tfcMetalProp != null) {
             manageHeatByTagPrefix(TagPrefix.ingot, material, tfcMetalProp, 1.429)
             assignMetaltoFluid(material, tfcMetalProp.getMeltingTemp(), tfcMetalProp.getHeatCapacity(), TagPrefix.ingot, null, TagPrefix.plate, tfcMetalProp.getTier(), tfcMetalProp.getFluidMaterial().getName())
+            if(material.hasFlag($MaterialFlags.GENERATE_PLATE)) {
+                manageHeatByTagPrefix(TagPrefix.plate, material, tfcMetalProp, 1.429)
+                manageHeatByTagPrefix(TagPrefix.plateDouble, material, tfcMetalProp, 1.429)
+            }
+
+            if(material.hasFlag($MaterialFlags.GENERATE_GEAR))
+                manageHeatByTagPrefix(TagPrefix.gear, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_GEAR))
+                manageHeatByTagPrefix(TagPrefix.gear, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_SMALL_GEAR))
+                manageHeatByTagPrefix(TagPrefix.gear, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_ROD))
+                manageHeatByTagPrefix(TagPrefix.rod, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_LONG_ROD))
+                manageHeatByTagPrefix(TagPrefix.rodLong, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_DENSE))
+                manageHeatByTagPrefix(TagPrefix.plateDense, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_FRAME))
+                manageHeatByTagPrefix(TagPrefix.frameGt, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_SPRING))
+                manageHeatByTagPrefix(TagPrefix.spring, material, tfcMetalProp, 1.429)
+
+            if(material.hasFlag($MaterialFlags.GENERATE_SPRING_SMALL))
+                manageHeatByTagPrefix(TagPrefix.springSmall, material, tfcMetalProp, 1.429)
         }
     })
+
+    
 })
